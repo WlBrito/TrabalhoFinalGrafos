@@ -210,9 +210,9 @@ int main() {
 
         cout << "=== Questão 1: Dois alunos com melhor desempenho ===\n";
         auto top2 = mais_alcancados(g_inv);
-        cout << "Aluno " << top2.first.first << " é a Karla, alcançado por " 
+        cout << "Aluno " << top2.first.first << " é Y, alcançado por " 
              << top2.first.second << " outros alunos\n";
-        cout << "Aluno " << top2.second.first << " é a Karla no semestre passado, alcançado por " 
+        cout << "Aluno " << top2.second.first << " é Y no semestre passado, alcançado por " 
              << top2.second.second << " outros alunos\n";
 
         cout << "\n=== Questão 5: BFS no grafo invertido ===\n";
