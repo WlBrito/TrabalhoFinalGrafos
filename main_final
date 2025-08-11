@@ -283,8 +283,8 @@ int main() {
 
         cout << "\n=== Questão 1: Dois alunos com melhor desempenho ===\n";
         pair<pair<int,int>, pair<int,int>> top2 = mais_alcancados(g_inv);
-        cout << "Aluno " << top2.first.first << " eh a Karla: alcançado por " << top2.first.second << " alunos\n";
-        cout << "Aluno " << top2.second.first << " eh alguem muito parecido com a Karla: alcançado por " << top2.second.second << " alunos\n";
+        cout << "Aluno " << top2.first.first << " X: alcançado por " << top2.first.second << " alunos\n";
+        cout << "Aluno " << top2.second.first << " semelhante a X: alcançado por " << top2.second.second << " alunos\n";
 
         cout << "\n=== Questão 5: BFS no grafo invertido ===\n";
         cout << "Digite um vértice: ";
